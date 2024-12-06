@@ -62,7 +62,7 @@ const cars = [
   },
 ]
 cars.forEach(licenza => {
-  licenza['licensePlate'] = "Ok"; });
+  licenza['licensePlate'] = "EO987LP"; });
  console.log(cars)
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -125,3 +125,53 @@ x++
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+let posizioni = []
+for (const numero of charactersArray) {
+  let obj = numero
+  switch (true) {
+      case numero === "a": posizioni.push("1")
+      break;
+      case numero === "b": posizioni.push("2") 
+      break;
+      case numero === "c": posizioni.push("3")   
+      break;
+      case numero === "d": posizioni.push("4") 
+      break;
+      case numero === "e": posizioni.push("5")   
+      break;
+      case numero === "f": posizioni.push("6")   
+      break;
+      case numero === "g": posizioni.push("7")
+      break;
+      case numero === "h": posizioni.push("8")   
+      break;
+      case numero === "i": posizioni.push("9")   
+      break;
+      case numero === "l": posizioni.push("10") 
+      break;
+      case numero === "m": posizioni.push("11")   
+      break;
+      case numero === "n": posizioni.push("12") 
+      break;
+      case numero === "o": posizioni.push("13")  
+      break;
+      case numero === "p": posizioni.push("14")  
+      break;
+      case numero === "q": posizioni.push("15") 
+      break;
+      case numero === "r": posizioni.push("16") 
+      break;
+      case numero === "s": posizioni.push("17") 
+      break;
+      case numero === "t": posizioni.push("18")  
+      break;
+      case numero === "u": posizioni.push("19") 
+      break;
+      case numero === "v": posizioni.push("20") 
+      break;
+      case numero === "z": posizioni.push("21") 
+      break;
+
+    default:
+      break;
+  }}console.log(posizioni)
